@@ -1,5 +1,5 @@
 [package]
-name = "cnpg-microservice"
+name = "k8s-resource-manager"
 version = "0.1.0"
 edition = "2024"
 
@@ -18,3 +18,4 @@ tracing = "0.1"
 tracing-subscriber = { version = "0.3", features = ["env-filter"] }
 tower = "0.4"
 tower-http = { version = "0.5", features = ["cors", "trace"] }
+async-trait = "0.1"

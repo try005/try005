@@ -1,4 +1,5 @@
 pub mod cnpg;
+pub mod kubeflow;
 
 use serde::{Deserialize, Serialize};
 

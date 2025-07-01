@@ -1,4 +1,5 @@
 pub mod cnpg;
+pub mod kubeflow;
 
 use crate::error::Result;
 use kube::Client;
